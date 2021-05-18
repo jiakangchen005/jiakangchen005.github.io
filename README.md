@@ -1,2 +1,2 @@
-# https://jiakangchen005.github.io/
+# jiakangchen005.github.io
 nothing to see here
