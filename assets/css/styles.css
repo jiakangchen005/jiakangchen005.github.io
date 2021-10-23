@@ -1,13 +1,7 @@
-/*
-Color Palette:
-
-#2D3142
-#BFC0C0
-#FFFFFF
-#EF8354
-#4F5D75
-
-*/
+body {
+  	background-color: #050505;
+	/*background: linear-gradient(to bottom, #2D3142, #4F5D75);*/
+}
 
 @font-face { 
 	font-family: Ubuntu-R; 
@@ -23,7 +17,6 @@ Color Palette:
 	font-family: UbuntuMono-R;
 	src: url('../fonts/UbuntuMono-R.ttf');
 }
-
 
 .centerPiece {
 	position: fixed;
