@@ -1,3 +1,3 @@
 # Fonts
 
-Ubunutu Fonts are fire.
+Ubuntu Fonts are fire.
