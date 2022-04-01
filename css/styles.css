@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "Ubuntu Mono";
-    src: url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap");
+    src: url("../fonts/UbuntuMono-Regular.ttf");
 }
 
 html * {
-    font-family: "Ubuntu Mono", sans-serif !important;
+    font-family: "Ubuntu Mono", monospace !important;
     background: #282923;
     color: #F8F8F2;
 }
