@@ -9,7 +9,7 @@
     animation-name: description-box-levitate;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes title-levitate {

@@ -24,7 +24,7 @@ var words = [
 	["Competitive Programmer", "CTF Player", "Mathematics Enjoyer"], 
 	["whoami"],
 	["cat accomplishments"],
-	["wget jiakangchen005.github.io/files/resume.pdf"],
+	["wget jiakangchen005.github.io/resume.pdf"],
 	["ls -Ra ~/connections/"]
 ];
 
