@@ -1,0 +1,124 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Ubuntu Mono";
+    src: url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap");
+}
+
+html * {
+    font-family: "Ubuntu Mono", sans-serif !important;
+    background: #282923;
+    color: #F8F8F2;
+}
+
+/* Add css to the top bar */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    padding: 16px;
+    overflow: hidden;
+    background: transparent;
+}
+
+/* Add css to the links of the top bar */
+.topbar a {
+    float: left;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    background: transparent;
+}
+
+/* Change the color of links on hover */
+.topbar a:hover {
+    background-color: #75715E;
+    border-radius: 8px;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topbar a.active {
+    background-color: #75715E;
+    border-radius: 8px;
+    color: #F8F8F2;
+}
+
+/* Center Section */
+.center-section {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: pre;
+    background: transparent;
+}
+
+/* Title */
+.title {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 32px;
+    width: 850px;
+
+    padding: 16px;
+
+    font-size: 32px;
+}
+
+/* Description Box */
+.description-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 512px;
+    width: 850px;
+
+    padding: 16px;
+
+    font-size: 18px;
+}
+
+.code-title {
+    position: fixed;
+    top: 22%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 16px;
+    width: 256px;
+
+    padding: 16px;
+
+    font-size: 16px;
+}
+
+.code-box {
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 420px;
+    width: 256px;
+
+    padding: 16px;
+
+    font-size: 12px;
+}

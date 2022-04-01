@@ -1,0 +1,25 @@
+.title-levitate {
+    animation-name: title-levitate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.description-box-levitate {
+    animation-name: description-box-levitate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes title-levitate {
+    0% { transform: translate(-50%, -50%); }
+    50% { transform: translate(-50%, -40%); }
+    100% { transform: translate(-50%, -50%); }
+}
+
+@keyframes description-box-levitate {
+    0% { transform: translate(-50%, -50%); }
+    50% { transform: translate(-50%, -48.75%); }
+    100% { transform: translate(-50%, -50%); }
+}
