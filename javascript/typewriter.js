@@ -12,12 +12,10 @@ if (currentDirectory == "/index.html") {
 	pageNumber = 0;
 } else if (currentDirectory == "/about.html") {
 	pageNumber = 1;
-} else if (currentDirectory == "/accomplishments.html") {
-	pageNumber = 2;
 } else if (currentDirectory == "/resume.html") {
-	pageNumber = 3;
+	pageNumber = 2;
 } else if (currentDirectory == "/connections.html") {
-	pageNumber = 4;
+	pageNumber = 3;
 }
 
 var words = [

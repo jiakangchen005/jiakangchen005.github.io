@@ -76,12 +76,12 @@ html * {
 
     border: 2px solid white;
     border-radius: 8px;
-    height: min(4vw, 4vh);
-    width: 64vw;
+    height: min(2.5vw, 2.5vh);
+    width: 69vw;
 
     padding: 16px;
 
-    font-size: min(4vw, 3.5vh);
+    font-size: min(3vw, 2.5vh);
 }
 
 /* Description Box */
@@ -93,12 +93,12 @@ html * {
 
     border: 2px solid white;
     border-radius: 8px;
-    height: 32vh;
-    width: 64vw;
+    height: min(68vw, 33vh);
+    width: 69vw;
 
     padding: 16px;
 
-    font-size: 18px;
+    font-size: min(1.7520vw, 2.5vh);
 }
 
 .code-title {
