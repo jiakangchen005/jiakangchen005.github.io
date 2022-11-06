@@ -21,9 +21,8 @@ if (currentDirectory == "/index.html") {
 }
 
 var words = [
-	["Competitive Programmer", "CTF Player", "Mathematics Enjoyer"], 
+	["Competitive Programmer", "CTF Player", "Mathematics Enjoyer", "Musicophile"], 
 	["whoami"],
-	["cat accomplishments"],
 	["wget jiakangchen005.github.io/resume.pdf"],
 	["ls -Ra ~/connections/"]
 ];

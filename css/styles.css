@@ -15,10 +15,12 @@ html * {
 .topbar {
     display: flex;
     justify-content: space-between;
-    max-width: 900px;
+    width: min(80vw, 80vh);
     padding: 16px;
     overflow: hidden;
     background: transparent;
+
+    font-size: min(4vw, 3.5vh);
 }
 
 /* Add css to the links of the top bar */
@@ -28,7 +30,6 @@ html * {
     border-radius: 8px;
     padding: 8px 8px;
     text-decoration: none;
-    font-size: 25px;
     background: transparent;
 }
 
@@ -50,41 +51,50 @@ html * {
 .center-section {
     position: fixed;
     text-align: center;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: pre;
     background: transparent;
 }
 
+.jiakang-chen-title {
+    font-size: min(8vh, 8vw);
+    top: 35vh;
+}
+
+.typewriter-title {
+    font-size: min(4vh, 4vw);
+    top: 50vh;
+}
+
 /* Title */
 .title {
     position: absolute;
-    top: 16%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     border: 2px solid white;
     border-radius: 8px;
-    height: 32px;
-    width: 850px;
+    height: min(4vw, 4vh);
+    width: 64vw;
 
     padding: 16px;
 
-    font-size: 32px;
+    font-size: min(4vw, 3.5vh);
 }
 
 /* Description Box */
 .description-box {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     border: 2px solid white;
     border-radius: 8px;
-    height: 512px;
-    width: 850px;
+    height: 32vh;
+    width: 64vw;
 
     padding: 16px;
 
