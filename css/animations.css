@@ -14,12 +14,12 @@
 
 @keyframes title-levitate {
     0% { transform: translate(-50%, -50%); }
-    50% { transform: translate(-50%, -40%); }
+    50% { transform: translate(-50%, -30%); }
     100% { transform: translate(-50%, -50%); }
 }
 
 @keyframes description-box-levitate {
     0% { transform: translate(-50%, -50%); }
-    50% { transform: translate(-50%, -48.75%); }
+    50% { transform: translate(-50%, -46%); }
     100% { transform: translate(-50%, -50%); }
 }

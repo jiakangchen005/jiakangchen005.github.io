@@ -100,35 +100,3 @@ html * {
 
     font-size: min(1.7520vw, 2.5vh);
 }
-
-.code-title {
-    position: fixed;
-    top: 22%;
-    left: 13%;
-    transform: translate(-50%, -50%);
-
-    border: 1px solid white;
-    border-radius: 8px;
-    height: 16px;
-    width: 256px;
-
-    padding: 16px;
-
-    font-size: 16px;
-}
-
-.code-box {
-    position: absolute;
-    top: 50%;
-    left: 13%;
-    transform: translate(-50%, -50%);
-
-    border: 1px solid white;
-    border-radius: 8px;
-    height: 420px;
-    width: 256px;
-
-    padding: 16px;
-
-    font-size: 12px;
-}
