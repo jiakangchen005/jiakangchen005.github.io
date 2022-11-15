@@ -22,7 +22,7 @@ var words = [
 	["Competitive Programmer", "CTF Player", "Mathematics Enjoyer", "Musicophile"], 
 	["whoami"],
 	["wget jiakangchen005.github.io/resume.pdf"],
-	["ls -Ra ~/connections/"]
+	["ls -Ral ~/connections/"]
 ];
 
 async function typewriter() {
